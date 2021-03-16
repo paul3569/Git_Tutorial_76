@@ -8,6 +8,7 @@ public class UserController {
         return "user/login";
     }
     
+    // fuckfuckfuckfuck
     @RequsetMapping("/user/insert.do")
     public String insert() {
         logger.info("login: insert");
