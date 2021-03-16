@@ -7,4 +7,10 @@ public class UserController {
         logger.info("경로:login");
         return "user/login";
     }
+    
+    @RequsetMapping("/user/insert.do")
+    public String insert() {
+        logger.info("login: insert");
+        return "user/insert";
+    }
 }
